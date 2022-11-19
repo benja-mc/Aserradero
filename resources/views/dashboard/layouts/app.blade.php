@@ -23,7 +23,7 @@
 <body class="sidebar-expand light active">
     <div class="sidebar">
         <div class="sidebar-logo">
-            <a href="index.html">
+            <a href="{{route('index')}}">
                 <img src="dashboard/images/logo.png" alt="Protend logo" />
             </a>
             <div class="sidebar-close" id="sidebar-close">
@@ -34,7 +34,7 @@
         <div class="simlebar-sc" data-simplebar>
             <ul class="sidebar-menu tf">
                 <li class="sidebar-submenu">
-                    <a href="index.html" class="sidebar-menu-dropdown">
+                    <a href="{{route('index')}}" class="sidebar-menu-dropdown">
                         <i class="bx bxs-home"></i>
                         <span>Dashboard</span>
                         <div class="dropdown-icon">
@@ -43,7 +43,7 @@
                     </a>
                     <ul class="sidebar-menu sidebar-menu-dropdown-content">
                         <li>
-                            <a href="index.html"> Dashboard </a>
+                            <a href="{{route('index')}}"> Dashboard </a>
                         </li>
                         <li>
                             <a href="user-profile.html"> User Profile </a>
@@ -228,17 +228,17 @@
                     <i class="bx bx-chevron-down"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
-                    <a class="dropdown-item" href="index.html#"><i
+                    <a class="dropdown-item" href="{{route('index')}}#"><i
                             class="bx bx-user font-size-16 align-middle me-1"></i>
                         <span>Profile</span></a>
-                    <a class="dropdown-item" href="index.html#"><i
+                    <a class="dropdown-item" href="{{route('index')}}#"><i
                             class="bx bx-wallet font-size-16 align-middle me-1"></i>
                         <span>My Wallet</span></a>
-                    <a class="dropdown-item d-block" href="index.html#"><span
+                    <a class="dropdown-item d-block" href="{{route('index')}}#"><span
                             class="badge bg-success float-end">11</span><i
                             class="bx bx-wrench font-size-16 align-middle me-1"></i>
                         <span>Settings</span></a>
-                    <a class="dropdown-item" href="index.html#"><i
+                    <a class="dropdown-item" href="{{route('index')}}#"><i
                             class="bx bx-lock-open font-size-16 align-middle me-1"></i>
                         <span>Lock screen</span></a>
                     <div class="dropdown-divider"></div>

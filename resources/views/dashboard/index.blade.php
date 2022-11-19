@@ -36,7 +36,7 @@
                                             <img class="mr-14" src="dashboard/images/avatar/avt-1.png" alt="avt" />
                                         </div>
                                         <div class="info">
-                                            <a href="index.html#" class="font-w600 mb-0 color-primary">Elizabeth
+                                            <a href="{{route('index')}}#" class="font-w600 mb-0 color-primary">Elizabeth
                                                 Holland</a>
                                             <p class="pb-0 mb-0 line-h14 mt-6">
                                                 Proin ac quam et lectus vestibulum
@@ -48,7 +48,7 @@
                                             <img class="mr-14" src="dashboard/images/avatar/avt-1.png" alt="avt" />
                                         </div>
                                         <div class="info">
-                                            <a href="index.html#" class="font-w600 mb-0 color-primary">Elizabeth
+                                            <a href="{{route('index')}}#" class="font-w600 mb-0 color-primary">Elizabeth
                                                 Holland</a>
                                             <p class="pb-0 mb-0 line-h14 mt-6">
                                                 Proin ac quam et lectus vestibulum
@@ -74,7 +74,7 @@
                         </a>
                     </div>
                     <div class="icon-box bg-color-4">
-                        <a class="create d-flex" href="index.html#" data-toggle="modal" data-target="#add_project">
+                        <a class="create d-flex" href="{{route('index')}}#" data-toggle="modal" data-target="#add_project">
                             <div class="icon bg-white">
                                 <i class="bx bx-plus"></i>
                             </div>
@@ -200,7 +200,7 @@
                                     </p>
                                 </div>
                                 <div class="btn-now">
-                                    <a class="h6 font-w500" href="index.html#"><span>Try For Free Now</span></a>
+                                    <a class="h6 font-w500" href="{{route('index')}}#"><span>Try For Free Now</span></a>
                                 </div>
                             </div>
                         </div>
@@ -337,10 +337,10 @@
                                                 </svg>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#delete_project"><i class="bx bx-trash"></i>
                                                     Delete</a>
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#edit_project"><i class="bx bx-edit mr-5"></i>Edit</a>
                                             </div>
                                         </div>
@@ -371,10 +371,10 @@
                                             </ul>
                                             <ul class="tf-icon-list">
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bx-calendar"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bx-calendar"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bxs-star"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bxs-star"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -406,10 +406,10 @@
                                                 </svg>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#delete_project"><i class="bx bx-trash"></i>
                                                     Delete</a>
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#edit_project"><i class="bx bx-edit mr-5"></i>Edit</a>
                                             </div>
                                         </div>
@@ -440,10 +440,10 @@
                                             </ul>
                                             <ul class="tf-icon-list">
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bx-calendar"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bx-calendar"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bxs-star"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bxs-star"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -475,10 +475,10 @@
                                                 </svg>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#delete_project"><i class="bx bx-trash"></i>
                                                     Delete</a>
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#edit_project"><i class="bx bx-edit mr-5"></i>Edit</a>
                                             </div>
                                         </div>
@@ -509,10 +509,10 @@
                                             </ul>
                                             <ul class="tf-icon-list">
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bx-calendar"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bx-calendar"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bxs-star"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bxs-star"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -544,10 +544,10 @@
                                                 </svg>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#delete_project"><i class="bx bx-trash"></i>
                                                     Delete</a>
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#edit_project"><i class="bx bx-edit mr-5"></i>Edit</a>
                                             </div>
                                         </div>
@@ -578,10 +578,10 @@
                                             </ul>
                                             <ul class="tf-icon-list">
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bx-calendar"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bx-calendar"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bxs-star"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bxs-star"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -614,10 +614,10 @@
                                                 </svg>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#delete_project"><i class="bx bx-trash"></i>
                                                     Delete</a>
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#edit_project"><i class="bx bx-edit mr-5"></i>Edit</a>
                                             </div>
                                         </div>
@@ -648,10 +648,10 @@
                                             </ul>
                                             <ul class="tf-icon-list">
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bx-calendar"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bx-calendar"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bxs-star"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bxs-star"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -683,10 +683,10 @@
                                                 </svg>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#delete_project"><i class="bx bx-trash"></i>
                                                     Delete</a>
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#edit_project"><i class="bx bx-edit mr-5"></i>Edit</a>
                                             </div>
                                         </div>
@@ -717,10 +717,10 @@
                                             </ul>
                                             <ul class="tf-icon-list">
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bx-calendar"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bx-calendar"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bxs-star"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bxs-star"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -753,10 +753,10 @@
                                                 </svg>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#delete_project"><i class="bx bx-trash"></i>
                                                     Delete</a>
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#edit_project"><i class="bx bx-edit mr-5"></i>Edit</a>
                                             </div>
                                         </div>
@@ -787,10 +787,10 @@
                                             </ul>
                                             <ul class="tf-icon-list">
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bx-calendar"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bx-calendar"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bxs-star"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bxs-star"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -823,10 +823,10 @@
                                                 </svg>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#delete_project"><i class="bx bx-trash"></i>
                                                     Delete</a>
-                                                <a class="dropdown-item" href="index.html#" data-toggle="modal"
+                                                <a class="dropdown-item" href="{{route('index')}}#" data-toggle="modal"
                                                     data-target="#edit_project"><i class="bx bx-edit mr-5"></i>Edit</a>
                                             </div>
                                         </div>
@@ -857,10 +857,10 @@
                                             </ul>
                                             <ul class="tf-icon-list">
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bx-calendar"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bx-calendar"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><i class="bx bxs-star"></i></a>
+                                                    <a href="{{route('index')}}#"><i class="bx bxs-star"></i></a>
                                                 </li>
                                             </ul>
                                         </div>

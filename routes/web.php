@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get("/", function () {
     return view("index");
-});
+})->name("index");
 
 Route::get("/contacto", function () {
     return view("contacto");
@@ -27,8 +27,16 @@ Route::get("/nosotros", function () {
 
 Route::get("/consulta", function () {
     return view("consulta");
-});
+})->name("consulta");
+
+Route::get("/servicios", function () {
+    return view("servicios");
+})->name("servicios");
+
+Route::get("/proyectos", function () {
+    return view("proyectos");
+})->name("proyectos");
 
 Route::get("/panel", function () {
     return view("dashboard.index");
-});
+})->name("dashboard");

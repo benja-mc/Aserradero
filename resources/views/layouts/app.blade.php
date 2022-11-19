@@ -1,9 +1,9 @@
-<html>
+<html lang="es">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Aserradero - @yield('title') </title>
-    <link rel="canonical" href="https://themazine.com/mr/woodza-html/index.html" />
+    <link rel="canonical" href="https://themazine.com/mr/woodza-html/{{route('index')}}" />
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png" />
@@ -64,7 +64,7 @@
                         <div class="main-header__top-inner clearfix">
                             <div class="main-header__top-left">
                                 <div class="main-header__top-logo">
-                                    <a href="/index.html"><img src="/assets/images/resources/logo-1.png"
+                                    <a href="{{route('index')}}"><img src="/assets/images/resources/logo-1.png"
                                             alt=""></a>
                                 </div>
                             </div>
@@ -75,8 +75,8 @@
                                             <span class="icon-location"></span>
                                         </div>
                                         <div class="content">
-                                            <p>Quick Location</p>
-                                            <h5>#14 barlin, Germany</h5>
+                                            <p>Ubicación rápida</p>
+                                            <h5>#14 huallayco, Huanuco</h5>
                                         </div>
                                     </li>
                                     <li>
@@ -84,8 +84,8 @@
                                             <span class="icon-email-1"></span>
                                         </div>
                                         <div class="content">
-                                            <p>Quick Email Now!</p>
-                                            <h5><a href="mailto:helpus24@gmail.com">helpus24@gmail.com</a></h5>
+                                            <p>Correo electrónico!</p>
+                                            <h5><a href="mailto:helpus24@gmail.com">mail@gmail.com</a></h5>
                                         </div>
                                     </li>
                                     <li>
@@ -93,8 +93,8 @@
                                             <span class="icon-phone"></span>
                                         </div>
                                         <div class="content">
-                                            <p>Phone Number</p>
-                                            <h5><a href="tel:88001152">(88) 00-11-52 Call</a></h5>
+                                            <p>Número de teléfono</p>
+                                            <h5><a href="tel:88001152">(51) 930 900 900 LLamar</a></h5>
                                         </div>
                                     </li>
                                 </ul>
@@ -110,78 +110,20 @@
                                     <div class="main-menu__main-menu-box">
                                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                         <ul class="main-menu__list">
-                                            <li class="dropdown current">
-                                                <a href="/index.html">Home </a>
-                                                <ul>
-                                                    <li><a href="/index.html">Home One</a></li>
-                                                    <li><a href="../../index.html">Home Two</a></li>
-                                                    <li><a href="/index3.html">Home Three</a></li>
-                                                    <li class="dropdown">
-                                                        <a href="#">Header Styles</a>
-                                                        <ul>
-                                                            <li><a href="/index.html">Header One</a></li>
-                                                            <li><a href="../../index.html">Header Two</a></li>
-                                                            <li><a href="/index3.html">Header Three</a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
+                                            <li @class(['current' => request()->is('index')])>
+                                                <a href="{{route('index')}}">Inicio </a>
                                             </li>
-                                            <li class="dropdown">
-                                                <a href="#">Services</a>
-                                                <ul>
-                                                    <li><a href="/services.html">Services</a></li>
-                                                    <li><a href="/services-carousel.html">Services Carousel</a></li>
-                                                    <li><a href="/handmade-fruniture.html">Handmade Fruniture</a></li>
-                                                    <li><a href="/outdoor-designing.html">Outdoor Designing</a></li>
-                                                    <li><a href="/kitchen-modeling.html">Kitchen Modeling</a></li>
-                                                    <li><a href="/wood-fruniture.html">Wood Fruniture</a></li>
-                                                    <li><a href="/celling-roofing.html">Celling & Roofing</a></li>
-                                                    <li><a href="/office-renovation.html">Office Renovation</a></li>
-                                                </ul>
+                                            <li @class(['current' => request()->is('servicios')])>
+                                                <a href="{{route('servicios')}}">Servicios</a>
                                             </li>
-                                            <li>
-                                                <a href="/about.html">About</a>
+                                            <li @class(['current' => request()->is('proyectos')])>
+                                                <a href="{{route('proyectos')}}">Proyectos</a>
                                             </li>
-                                            <li class="dropdown">
-                                                <a href="#">Projects</a>
-                                                <ul>
-                                                    <li><a href="/project-01.html">Projects One</a></li>
-                                                    <li><a href="/project-02.html">Projects Two</a></li>
-                                                    <li><a href="/project-carousel.html">Project Carousel</a></li>
-                                                    <li><a href="/door-wood-work.html">Door Wood Work</a></li>
-                                                    <li><a href="/hardwood-flooring.html">Hardwood Flooring</a></li>
-                                                    <li><a href="/commercial-work.html">Commercial work</a></li>
-                                                    <li><a href="/furniture-designing.html">Furniture Designing</a>
-                                                    </li>
-                                                    <li><a href="/carpentry.html">Carpentry</a></li>
-                                                    <li><a href="/heavy-room.html">Heavy room</a></li>
-                                                    <li><a href="/hardwood-wall.html">Hardwood wall</a></li>
-                                                    <li><a href="/house-renovation.html">House Renovation</a></li>
-                                                </ul>
+                                            <li @class(['current' => request()->is('nosotros')])>
+                                                <a href="{{route('nosotros')}}">Nosotros</a>
                                             </li>
-                                            <li class="dropdown">
-                                                <a href="#">Page</a>
-                                                <ul>
-                                                    <li><a href="/team.html">Team</a></li>
-                                                    <li><a href="/team-carousel.html">Team Carousel</a></li>
-                                                    <li><a href="/testimonial.html">Testimonials</a></li>
-                                                    <li><a href="/testimonial-carousel.html">Testimonials Carousel</a>
-                                                    </li>
-                                                    <li><a href="/faq.html">FAQs</a></li>
-                                                    <li><a href="/404.html">404 Error</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="#">Blog</a>
-                                                <ul>
-                                                    <li><a href="/blog.html">Blog</a></li>
-                                                    <li><a href="/blog-carousel.html">Blog Carousel</a></li>
-                                                    <li><a href="/blog-list.html">Blog List</a></li>
-                                                    <li><a href="/blog-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="/contact.html">Contact</a>
+                                            <li @class(['current' => request()->is('contacto')])>
+                                                <a href="{{route('contacto')}}">Contacto</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -193,7 +135,7 @@
                                                 class="main-menu__search search-toggler icon-search-1"></a>
                                         </div>
                                         <div class="main-menu__btn-box">
-                                            <a href="/contact.html">Request Book</a>
+                                            <a href="{{route('contacto')}}">Contactar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -203,7 +145,7 @@
                 </nav>
             </header>
             <div class="stricky-header stricked-menu main-menu">
-                <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+                <div class="sticky-header__content"></div>
             </div>
             @yield('container')
 
@@ -218,12 +160,11 @@
                             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                                 <div class="footer-widget__column footer-widget__about">
                                     <div class="footer-widget__logo">
-                                        <a href="/index.html"><img src="/assets/images/resources/footer-logo.png"
+                                        <a href="{{route('index')}}"><img src="/assets/images/resources/footer-logo.png"
                                                 alt=""></a>
                                     </div>
                                     <div class="footer-widget__about-text-box">
-                                        <p class="footer-widget__about-text">Subscribe us and get latest news, tips and
-                                            updates to your inbox </p>
+                                        <p class="footer-widget__about-text">Suscríbete y recibe las últimas noticias, consejos y actualizaciones en tu bandeja de entrada</p>
                                     </div>
                                     <form class="footer-widget__subscribe-box">
                                         <div class="footer-widget__subscribe-input-box">
@@ -242,36 +183,33 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                                 <div class="footer-widget__column footer-widget__service clearfix">
                                     <div class="footer-widget__title-box">
-                                        <h3 class="footer-widget__title">Services</h3>
+                                        <h3 class="footer-widget__title">Servicios</h3>
                                     </div>
                                     <ul class="footer-widget__service-list list-unstyled clearfix">
-                                        <li><a href="/carpentry.html">Carpentry</a></li>
-                                        <li><a href="/hardwood-flooring.html">Hardwood flooring</a></li>
-                                        <li><a href="/celling-roofing.html">Ceiling & roofing</a></li>
-                                        <li><a href="/heavy-room.html">Heavy room</a></li>
-                                        <li><a href="/house-renovation.html">House Renovation</a></li>
-                                        <li><a href="/hardwood-wall.html">Hardwood wall</a></li>
+                                        <li><a href="#">Carpinteria</a></li>
+                                        <li><a href="#">Pisos de madera dura</a></li>
+                                        <li><a href="#">Techo y techado</a></li>
+                                        <li><a href="#">Renovación de la casa</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                                 <div class="footer-widget__column footer-widget__link clearfix">
                                     <div class="footer-widget__title-box">
-                                        <h3 class="footer-widget__title">Other Link</h3>
+                                        <h3 class="footer-widget__title">Compañia</h3>
                                     </div>
                                     <ul class="footer-widget__link-list list-unstyled clearfix">
-                                        <li><a href="/index.html">Home</a></li>
-                                        <li><a href="/about.html">About us</a></li>
-                                        <li><a href="/testimonial.html">Testimonials</a></li>
-                                        <li><a href="/blog.html">News & media</a></li>
-                                        <li><a href="/project-01.html">Our projects</a></li>
+                                        <li><a href="{{route('index')}}">Inicio</a></li>
+                                        <li><a href="{{route('nosotros')}}">Nosotros</a></li>
+                                        <li><a href="{{route("servicios")}}">Servicios</a></li>
+                                        <li><a href="#">Nuestros proyectos</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                                 <div class="footer-widget__column footer-widget__contact clearfix">
                                     <div class="footer-widget__title-box">
-                                        <h3 class="footer-widget__title">Contact</h3>
+                                        <h3 class="footer-widget__title">Contacto</h3>
                                     </div>
                                     <ul class="footer-widget__contact-list list-unstyled clearfix">
                                         <li>
@@ -279,7 +217,7 @@
                                                 <span class="icon-email-1"></span>
                                             </div>
                                             <div class="text">
-                                                <p><a href="mailto:helpus24@gmail.com">helpus24@gmail.com</a></p>
+                                                <p><a href="mailto:mail@gmail.com">mail@gmail.com</a></p>
                                             </div>
                                         </li>
                                         <li>
@@ -287,7 +225,7 @@
                                                 <span class="icon-phone"></span>
                                             </div>
                                             <div class="text">
-                                                <p><a href="tel:0881122334455">+088 11 22 33 44 55</a></p>
+                                                <p><a href="tel:0881122334455">+51 930 900 900</a></p>
                                             </div>
                                         </li>
                                         <li>
@@ -295,7 +233,7 @@
                                                 <span class="icon-location"></span>
                                             </div>
                                             <div class="text">
-                                                <p>London RA4, Suite 405 England, UK</p>
+                                                <p>Huanuco, Jr Huallayco, PE</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -309,9 +247,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="site-footer__bottom-inner">
-                                    <p class="site-footer__bottom-text">© 2022 <a href="#">woodza.com</a> All
-                                        Rights
-                                        Reserved</p>
+                                    <p class="site-footer__bottom-text">© 2022 <a href="#">website.com</a> Todos los derechos reservados</p>
                                 </div>
                             </div>
                         </div>
@@ -326,7 +262,7 @@
             <div class="mobile-nav__content">
                 <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
                 <div class="logo-box">
-                    <a href="/index.html" aria-label="logo image"><img src="/assets/images/resources/footer-logo.png"
+                    <a href="{{route('index')}}" aria-label="logo image"><img src="/assets/images/resources/footer-logo.png"
                             width="143" alt="" /></a>
                 </div>
                 <!-- /.logo-box -->
@@ -407,6 +343,7 @@
         <script src="/assets/vendors/polyglot-language-switcher/jquery.polyglot.language.switcher.js"></script>
         <!-- template js -->
         <script src="/assets/js/woodza.js"></script>
+        @stack('scripts')
     </body>
 </body>
 

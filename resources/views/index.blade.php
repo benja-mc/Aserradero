@@ -2,25 +2,10 @@
 @section('title', 'MULTISERV Y NEG. YUREM')
 @section('container')
     <section class="main-slider clearfix">
-        <div class="swiper-container thm-swiper__slider"
-            data-swiper-options='{"slidesPerView": 1, "loop": true,
-        "effect": "fade",
-        "pagination": {
-        "el": "#main-slider-pagination",
-        "type": "bullets",
-        "clickable": true
-        },
-        "navigation": {
-        "nextEl": "#main-slider__swiper-button-next",
-        "prevEl": "#main-slider__swiper-button-prev"
-        },
-        "autoplay": {
-        "delay": 5000
-        }}'>
+        <div class="swiper thm-swiper__slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="image-layer"
-                        style="background-image: url(/assets/images/backgrounds/main-slider-1-1.jpg);">
+                    <div class="image-layer" style="background-image: url(/assets/images/backgrounds/main-slider-1-1.jpg);">
                     </div>
                     <!-- /.image-layer -->
                     <div class="main-slider-overly-one"></div>
@@ -29,12 +14,12 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="main-slider__content">
-                                    <p class="main-slider__sub-title">Quality Wood Work</p>
-                                    <h2 class="main-slider__title">We Provide the <br> quality Carpentry <br>
-                                        Services</h2>
+                                    <p class="main-slider__sub-title">Trabajo en madera de calidad</p>
+                                    <h2 class="main-slider__title">Brindamos servicios <br>de carpínteria de <br>calidad.
+                                    </h2>
                                     <div class="main-slider__btn-box">
-                                        <a href="/services.html" class="thm-btn main-slider__btn">Our
-                                            Services</a>
+                                        <a href="{{ route('servicios') }}" class="thm-btn main-slider__btn">Nuestros
+                                            Servicios</a>
                                     </div>
                                 </div>
                             </div>
@@ -42,8 +27,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="image-layer"
-                        style="background-image: url(/assets/images/backgrounds/main-slider-1-2.jpg);">
+                    <div class="image-layer" style="background-image: url(/assets/images/backgrounds/main-slider-1-2.jpg);">
                     </div>
                     <!-- /.image-layer -->
                     <div class="main-slider-overly-one"></div>
@@ -52,12 +36,12 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="main-slider__content">
-                                    <p class="main-slider__sub-title">Quality Wood Work</p>
-                                    <h2 class="main-slider__title">We Provide the <br> quality Carpentry <br>
-                                        Services</h2>
+                                    <p class="main-slider__sub-title">Trabajo en madera de calidad</p>
+                                    <h2 class="main-slider__title">de carplpteqa de "< br>de carpínteria de <br>calidad.
+                                    </h2>
                                     <div class="main-slider__btn-box">
-                                        <a href="/services.html" class="thm-btn main-slider__btn">Our
-                                            Services</a>
+                                        <a href="{{ route('servicios') }}" class="thm-btn main-slider__btn">Nuestros
+                                            Servicios</a>
                                     </div>
                                 </div>
                             </div>
@@ -65,8 +49,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="image-layer"
-                        style="background-image: url(/assets/images/backgrounds/main-slider-1-3.jpg);">
+                    <div class="image-layer" style="background-image: url(/assets/images/backgrounds/main-slider-1-3.jpg);">
                     </div>
                     <!-- /.image-layer -->
                     <div class="main-slider-overly-one"></div>
@@ -75,12 +58,11 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="main-slider__content">
-                                    <p class="main-slider__sub-title">Quality Wood Work</p>
-                                    <h2 class="main-slider__title">We Provide the <br> quality Carpentry <br>
-                                        Services</h2>
+                                    <p class="main-slider__sub-title">Trabajo en madera de calidad</p>
+                                    <h2 class="main-slider__title">calidad <br>de carpínteria de <br>calidad.</h2>
                                     <div class="main-slider__btn-box">
-                                        <a href="/services.html" class="thm-btn main-slider__btn">Our
-                                            Services</a>
+                                        <a href="{{ route('servicios') }}" class="thm-btn main-slider__btn">Nuestros
+                                            Servicios</a>
                                     </div>
                                 </div>
                             </div>
@@ -113,13 +95,12 @@
                         <div class="famous-company__icon">
                             <img src="/assets/images/icon/famous-company-icon-1.png" alt="">
                         </div>
-                        <h3 class="famous-company__title"><a href="/carpentry.html">Creative
-                                Carpentry</a></h3>
+                        <h3 class="famous-company__title"><a href="{{ route('servicios') }}">Carpintería creativa</a></h3>
                         <p class="famous-company__text">Lorem ipsum dolor sitame aenean are is mode </p>
                         <div class="famous-company__read-more">
-                            <a href="/carpentry.html">
+                            <a href="{{ route('servicios') }}">
                                 <i class="fas fa-arrow-right"></i>
-                                <span>Read More</span>
+                                <span>Leer más</span>
                             </a>
                         </div>
                         <div class="famous-company__shape-1"></div>
@@ -132,13 +113,13 @@
                         <div class="famous-company__icon">
                             <img src="/assets/images/icon/famous-company-icon-2.png" alt="">
                         </div>
-                        <h3 class="famous-company__title"><a href="/about.html">Certified Materials</a>
+                        <h3 class="famous-company__title"><a href="{{ route('servicios') }}">Materiales Certificados</a>
                         </h3>
                         <p class="famous-company__text">Lorem ipsum dolor sitame aenean are is mode </p>
                         <div class="famous-company__read-more">
-                            <a href="/about.html">
+                            <a href="{{ route('servicios') }}">
                                 <i class="fas fa-arrow-right"></i>
-                                <span>Read More</span>
+                                <span>Leer más</span>
                             </a>
                         </div>
                         <div class="famous-company__shape-1"></div>
@@ -151,13 +132,13 @@
                         <div class="famous-company__icon">
                             <img src="/assets/images/icon/famous-company-icon-3.png" alt="">
                         </div>
-                        <h3 class="famous-company__title"><a href="/about.html"> Very Cheap Rates</a>
+                        <h3 class="famous-company__title"><a href="{{ route('servicios') }}">Tarifas muy económicas</a>
                         </h3>
                         <p class="famous-company__text">Lorem ipsum dolor sitame aenean are is mode </p>
                         <div class="famous-company__read-more">
-                            <a href="/about.html">
+                            <a href="{{ route('servicios') }}">
                                 <i class="fas fa-arrow-right"></i>
-                                <span>Read More</span>
+                                <span>Leer más</span>
                             </a>
                         </div>
                         <div class="famous-company__shape-1"></div>
@@ -170,13 +151,12 @@
                         <div class="famous-company__icon">
                             <img src="/assets/images/icon/famous-company-icon-4.png" alt="">
                         </div>
-                        <h3 class="famous-company__title"><a href="/kitchen-modeling.html">Kitchen
-                                Modeling</a></h3>
+                        <h3 class="famous-company__title"><a href="">Modelado de cocina</a></h3>
                         <p class="famous-company__text">Lorem ipsum dolor sitame aenean are is mode </p>
                         <div class="famous-company__read-more">
                             <a href="#">
                                 <i class="fas fa-arrow-right"></i>
-                                <span>Read More</span>
+                                <span>Leer más</span>
                             </a>
                         </div>
                         <div class="famous-company__shape-1"></div>
@@ -198,16 +178,13 @@
                     <div class="why-choose-one__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="why-choose-one__img-box">
                             <div class="why-choose-one__img">
-                                <img src="/assets/images/resources/why-choose-one-img-1.jpg"
-                                    alt="">
+                                <img src="/assets/images/resources/why-choose-one-img-1.jpg" alt="">
                                 <div class="why-choose-one__dot float-bob-y">
-                                    <img src="/assets/images/shapes/why-choose-one-dot.png"
-                                        alt="">
+                                    <img src="/assets/images/shapes/why-choose-one-dot.png" alt="">
                                 </div>
                             </div>
                             <div class="why-choose-one__img-two">
-                                <img src="/assets/images/resources/why-choose-one-img-2.jpg"
-                                    alt="">
+                                <img src="/assets/images/resources/why-choose-one-img-2.jpg" alt="">
                             </div>
                             <div class="why-choose-one__border"></div>
                             <div class="why-choose-one__customer-service">
@@ -215,7 +192,7 @@
                                     <span class="icon-emoji-chat-message"></span>
                                 </div>
                                 <div class="why-choose-one__customer-service-content">
-                                    <h4>Excellent <br> Customer Service</h4>
+                                    <h4>Excelente <br>servicio al cliente</h4>
                                 </div>
                                 <div class="why-choose-one__customer-service-dot float-bob-x">
                                     <img src="/assets/images/shapes/why-choose-one-customer-service-dot.png"
@@ -228,19 +205,18 @@
                 <div class="col-xl-6">
                     <div class="why-choose-one__right">
                         <div class="section-title text-left">
-                            <span class="section-title__tagline">our journey</span>
-                            <h2 class="section-title__title">Welcome to Our Woodza Services</h2>
+                            <span class="section-title__tagline">NUESTRO VIAJE</span>
+                            <h2 class="section-title__title">Bienvenido a Nuestros Servicios</h2>
                         </div>
-                        <p class="why-choose-one__text-1">We, at Woodza provide all types of carpentry and
-                            carpentry.Lorem ipsum dolor sit amet conse ctetur porro quisquam est, qui dolorem ipsum
-                            quia dolor sit amet </p>
+                        <p class="why-choose-one__text-1">Nosotros, en Website proporcionamos todo tipo de carpintería y
+                            carpintería.</p>
                         <ul class="list-unstyled why-choose-one__points">
                             <li>
                                 <div class="icon">
                                     <span class="icon-check"></span>
                                 </div>
                                 <div class="text">
-                                    <p>We provide the most reasonable cost.</p>
+                                    <p>Proporcionamos el costo más razonable.</p>
                                 </div>
                             </li>
                             <li>
@@ -248,25 +224,22 @@
                                     <span class="icon-check"></span>
                                 </div>
                                 <div class="text">
-                                    <p>Finish work before Deadline</p>
+                                    <p>Terminar el trabajo antes de la fecha límite</p>
                                 </div>
                             </li>
                         </ul>
-                        <p class="why-choose-one__text-2">Over 20 Years’ Experience Providing Top Quality Carpentry
-                            Across world orem ipsum dolor sit amet consectetur </p>
+                        <p class="why-choose-one__text-2">Más de 20 años de experiencia brindando carpintería de alta
+                            calidad en todo el mundo</p>
                         <div class="why-choose-one__bottom">
                             <div class="why-choose-one__bottom-content">
-                                <p class="why-choose-one__bottom-text">We Creating unique and personalized woodwork.
-                                </p>
+                                <p class="why-choose-one__bottom-text">Creamos carpinterías únicas y personalizadas.</p>
                             </div>
                             <div class="why-choose-one__user">
                                 <div class="why-choose-one__user-img">
-                                    <img src="/assets/images/resources/why-choose-one-user-img.jpg"
-                                        alt="">
+                                    <img src="/assets/images/resources/why-choose-one-user-img.jpg" alt="">
                                 </div>
                                 <div class="why-choose-one__user-sign">
-                                    <img src="/assets/images/resources/why-choose-one-user-sign.png"
-                                        alt="">
+                                    <img src="/assets/images/resources/why-choose-one-user-sign.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -278,13 +251,12 @@
     <!--Why Choose One End-->
     <!--Services One Start-->
     <section class="services-one">
-        <div class="services-one-bg"
-            style="background-image: url(/assets/images/backgrounds/services-one-bg.jpg);">
+        <div class="services-one-bg" style="background-image: url(/assets/images/backgrounds/services-one-bg.jpg);">
         </div>
         <div class="container">
             <div class="section-title text-center">
-                <span class="section-title__tagline">our Services</span>
-                <h2 class="section-title__title">Some Of Our Services</h2>
+                <span class="section-title__tagline">Nuestros Servicios</span>
+                <h2 class="section-title__title">Algunos de nuestros servicios</h2>
             </div>
             <div class="row">
                 <!--Services One Single Start-->
@@ -297,12 +269,12 @@
                             <div class="services-one__icon">
                                 <span class="icon-table"></span>
                             </div>
-                            <h3 class="services-one__title"><a href="/wood-fruniture.html">Wooden
-                                    Furniture</a></h3>
+                            <h3 class="services-one__title"><a href="/"{{ route('servicios') }}">Muebles de
+                                    madera</a></h3>
                             <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula
                                 lorem ipsum</p>
                             <div class="services-one__arrow">
-                                <a href="/wood-fruniture.html"><i class="fas fa-arrow-right"></i></a>
+                                <a href="/"{{ route('servicios') }}"><i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="services-one__shape-1"></div>
@@ -319,12 +291,12 @@
                             <div class="services-one__icon">
                                 <span class="icon-chainsaw"></span>
                             </div>
-                            <h3 class="services-one__title"><a href="/services.html">Home
-                                    Renovation</a></h3>
+                            <h3 class="services-one__title"><a href="{{ route('servicios') }}">Renovación del hogar</a>
+                            </h3>
                             <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula
                                 lorem ipsum</p>
                             <div class="services-one__arrow">
-                                <a href="/services.html"><i class="fas fa-arrow-right"></i></a>
+                                <a href="{{ route('servicios') }}"><i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="services-one__shape-1"></div>
@@ -341,12 +313,12 @@
                             <div class="services-one__icon">
                                 <span class="icon-wood-pile"></span>
                             </div>
-                            <h3 class="services-one__title"><a href="/services.html">Hardwook work</a>
+                            <h3 class="services-one__title"><a href="{{ route('servicios') }}">Trabajo de madera dura</a>
                             </h3>
                             <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula
                                 lorem ipsum</p>
                             <div class="services-one__arrow">
-                                <a href="/services.html"><i class="fas fa-arrow-right"></i></a>
+                                <a href="{{ route('servicios') }}"><i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="services-one__shape-1"></div>
@@ -363,12 +335,11 @@
                             <div class="services-one__icon">
                                 <span class="icon-table"></span>
                             </div>
-                            <h3 class="services-one__title"><a href="/wood-fruniture.html">Wooden
-                                    Furniture</a></h3>
+                            <h3 class="services-one__title"><a href="{{ route('servicios') }}">Muebles de madera</a></h3>
                             <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula
                                 lorem ipsum</p>
                             <div class="services-one__arrow">
-                                <a href="/wood-fruniture.html"><i class="fas fa-arrow-right"></i></a>
+                                <a href="{{ route('servicios') }}"><i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="services-one__shape-1"></div>
@@ -385,9 +356,8 @@
             style="background-image: url(/assets/images/shapes/working-process-shape-1.png);"></div>
         <div class="container">
             <div class="working-process__title-box">
-                <h2>Working Process</h2>
-                <p>Our dedicated team specialises in the manufacture Lorem Ipsum available, <br> but the majority
-                    have suffered dimply entum estibulum</p>
+                <h2>Proceso de trabajo</h2>
+                <p>Nuestro equipo dedicado se especializa en la fabricación de todo tipo de muebles</p>
             </div>
             <div class="working-process__inner">
                 <div class="working-process__dot-1">
@@ -403,8 +373,7 @@
                             <div class="working-process__icon">
                                 <span class="icon-circular-saw"></span>
                             </div>
-                            <h3 class="working-process__title"><a href="/project-01.html">Consult
-                                    case</a></h3>
+                            <h3 class="working-process__title"><a href="/project-01.html">Consultar caso</a></h3>
                             <p class="working-process__text">Lorem ipsum dolor sitame aenean are is mode </p>
                             <div class="working-process__count"></div>
                         </div>
@@ -416,8 +385,7 @@
                             <div class="working-process__icon">
                                 <span class="icon-wrench"></span>
                             </div>
-                            <h3 class="working-process__title"><a href="/project-02.html">Make
-                                    Plan</a></h3>
+                            <h3 class="working-process__title"><a href="/project-02.html">Hacer plan</a></h3>
                             <p class="working-process__text">Lorem ipsum dolor sitame aenean are is mode </p>
                             <div class="working-process__count"></div>
                         </div>
@@ -429,8 +397,7 @@
                             <div class="working-process__icon">
                                 <span class="icon-success1"></span>
                             </div>
-                            <h3 class="working-process__title"><a href="/project-01.html">Success
-                                    Project</a></h3>
+                            <h3 class="working-process__title"><a href="/project-01.html">Proyecto de éxito</a></h3>
                             <p class="working-process__text">Lorem ipsum dolor sitame aenean are is mode </p>
                             <div class="working-process__count"></div>
                         </div>
@@ -449,12 +416,11 @@
                     <div class="problem-solved__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="problem-solved__img-box">
                             <div class="problem-solved__img">
-                                <img src="/assets/images/resources/problem-solved-img-1.jpg"
-                                    alt="">
+                                <img src="/assets/images/resources/problem-solved-img-1.jpg" alt="">
                             </div>
                         </div>
                         <div class="problem-solved__content">
-                            <h3 class="problem-solved__title">3k Problems Solved</h3>
+                            <h3 class="problem-solved__title">3k Problemas Resueltos</h3>
                             <p class="problem-solved__text">Every business is different, Lorem ipsum is simply free
                                 text used.</p>
                         </div>
@@ -464,13 +430,12 @@
                     <div class="problem-solved__right wow slideInRight" data-wow-delay="100ms"
                         data-wow-duration="2500ms">
                         <div class="problem-solved__right-content">
-                            <h3 class="problem-solved__right-title">Staircase Renovation</h3>
+                            <h3 class="problem-solved__right-title">Renovación de escaleras</h3>
                             <p class="problem-solved__right-text">Breathe a new life into your old staircase with
                                 our bespoke joinery services dolor sit</p>
                         </div>
                         <div class="problem-solved__btn-box">
-                            <a href="/project-01.html" class="thm-btn problem-solved__btn">View
-                                Services</a>
+                            <a href="/project-01.html" class="thm-btn problem-solved__btn">Ver Servicios</a>
                         </div>
                         <div class="problem-solved__shape-1 float-bob-x"></div>
                         <div class="problem-solved__shape-2 float-bob-y"></div>
@@ -487,20 +452,19 @@
                 <div class="row align-items-center">
                     <div class="col-xl-7 col-lg-6">
                         <div class="project-one__title-box-left">
-                            <div class="section-title text-left">
-                                <span class="section-title__tagline">our Projects</span>
-                                <h2 class="section-title__title">Our Latest Workplace Success Story</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="project-one__text-box">
-                            <p class="project-one__text">Lorem Ipsum available, but the majority have suffered
-                                dimply free text Suspe ndisse suscipit sagittis dolore magna aliqua ipsum quia </p>
+                            <span class="section-title__tagline">Nuestros Proyectos</span>
+                            <h2 class="section-title__title">Nuestra última historia de éxito en el lugar de trabajo</h2>
                         </div>
                     </div>
                 </div>
+                <div class="col-xl-5 col-lg-6">
+                    <div class="project-one__text-box">
+                        <p class="project-one__text">Lorem Ipsum available, but the majority have suffered
+                            dimply free text Suspe ndisse suscipit sagittis dolore magna aliqua ipsum quia </p>
+                    </div>
+                </div>
             </div>
+        </div>
         </div>
         <div class="project-one__top">
             <div class="owl-carousel owl-theme thm-owl__carousel project-one__carousel"
@@ -535,15 +499,13 @@
                             <img src="/assets/images/project/project-1-1.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
-                                    <h3><a href="/kitchen-modeling.html">Kitchen Modeling</a></h3>
+                                    <span>Diseño de muebles</span>
+                                    <h3><a href="">Modelado de cocina</a></h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/kitchen-modeling.html"
-                                        class="thm-btn project-one__btn">View
-                                        Project</a>
+                                    <a href="" class="thm-btn project-one__btn">Ver proyecto</a>
                                 </div>
                             </div>
                         </div>
@@ -557,14 +519,13 @@
                             <img src="/assets/images/project/project-1-2.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
+                                    <span>Diseño de muebles</span>
                                     <h3><a href="/door-wood-work.html">Door Wood Work</a></h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/door-wood-work.html"
-                                        class="thm-btn project-one__btn">View Project</a>
+                                    <a href="/door-wood-work.html" class="thm-btn project-one__btn">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -578,15 +539,13 @@
                             <img src="/assets/images/project/project-1-3.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
+                                    <span>Diseño de muebles</span>
                                     <h3><a href="/hardwood-flooring.html">Hardwood Flooring</a></h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/hardwood-flooring.html"
-                                        class="thm-btn project-one__btn">View
-                                        Project</a>
+                                    <a href="/hardwood-flooring.html" class="thm-btn project-one__btn">Ver proyecto</a>
                                 </div>
                             </div>
                         </div>
@@ -600,14 +559,13 @@
                             <img src="/assets/images/project/project-1-4.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
+                                    <span>Diseño de muebles</span>
                                     <h3><a href="/celling-roofing.html">Ceiling & Roofing</a></h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/celling-roofing.html"
-                                        class="thm-btn project-one__btn">View Project</a>
+                                    <a href="/celling-roofing.html" class="thm-btn project-one__btn">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -621,14 +579,13 @@
                             <img src="/assets/images/project/project-1-1.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
+                                    <span>Diseño de muebles</span>
                                     <h3><a href="/commercial-work.html">Commercial work</a></h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/commercial-work.html"
-                                        class="thm-btn project-one__btn">View Project</a>
+                                    <a href="/commercial-work.html" class="thm-btn project-one__btn">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -642,16 +599,14 @@
                             <img src="/assets/images/project/project-1-2.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
-                                    <h3><a href="/furniture-designing.html">Furniture Designing</a>
+                                    <span>Diseño de muebles</span>
+                                    <h3><a href="/furniture-designing.html">Diseño de mueblesing</a>
                                     </h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/furniture-designing.html"
-                                        class="thm-btn project-one__btn">View
-                                        Project</a>
+                                    <a href="/furniture-designing.html" class="thm-btn project-one__btn">Ver proyecto</a>
                                 </div>
                             </div>
                         </div>
@@ -665,15 +620,13 @@
                             <img src="/assets/images/project/project-1-3.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
-                                    <h3><a href="/kitchen-modeling.html">Kitchen Modeling</a></h3>
+                                    <span>Diseño de muebles</span>
+                                    <h3><a href="">Modelado de cocina</a></h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/kitchen-modeling.html"
-                                        class="thm-btn project-one__btn">View
-                                        Project</a>
+                                    <a href="" class="thm-btn project-one__btn">Ver proyecto</a>
                                 </div>
                             </div>
                         </div>
@@ -687,14 +640,13 @@
                             <img src="/assets/images/project/project-1-4.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
+                                    <span>Diseño de muebles</span>
                                     <h3><a href="/door-wood-work.html">Door Wood Work</a></h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/door-wood-work.html"
-                                        class="thm-btn project-one__btn">View Project</a>
+                                    <a href="/door-wood-work.html" class="thm-btn project-one__btn">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -708,15 +660,13 @@
                             <img src="/assets/images/project/project-1-1.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
+                                    <span>Diseño de muebles</span>
                                     <h3><a href="/hardwood-flooring.html">Hardwood Flooring</a></h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/hardwood-flooring.html"
-                                        class="thm-btn project-one__btn">View
-                                        Project</a>
+                                    <a href="/hardwood-flooring.html" class="thm-btn project-one__btn">Ver proyecto</a>
                                 </div>
                             </div>
                         </div>
@@ -730,14 +680,13 @@
                             <img src="/assets/images/project/project-1-2.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
+                                    <span>Diseño de muebles</span>
                                     <h3><a href="/celling-roofing.html">Ceiling & Roofing</a></h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/celling-roofing.html"
-                                        class="thm-btn project-one__btn">View Project</a>
+                                    <a href="/celling-roofing.html" class="thm-btn project-one__btn">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -751,14 +700,13 @@
                             <img src="/assets/images/project/project-1-3.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
+                                    <span>Diseño de muebles</span>
                                     <h3><a href="/commercial-work.html">Commercial work</a></h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/commercial-work.html"
-                                        class="thm-btn project-one__btn">View Project</a>
+                                    <a href="/commercial-work.html" class="thm-btn project-one__btn">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -772,16 +720,14 @@
                             <img src="/assets/images/project/project-1-4.jpg" alt="">
                             <div class="project-one__content">
                                 <div class="project-one__content-title-box">
-                                    <span>Furniture design</span>
-                                    <h3><a href="/furniture-designing.html">Furniture Designing</a>
+                                    <span>Diseño de muebles</span>
+                                    <h3><a href="/furniture-designing.html">Diseño de mueblesing</a>
                                     </h3>
                                 </div>
                                 <p class="project-one__content-text">Lorem ipsum dolor sit amet, consectet notted
                                     adipisicing dolore magna aliqu lonm dolore magna aliqua lonm </p>
                                 <div class="project-one__btn-box">
-                                    <a href="/furniture-designing.html"
-                                        class="thm-btn project-one__btn">View
-                                        Project</a>
+                                    <a href="/furniture-designing.html" class="thm-btn project-one__btn">Ver proyecto</a>
                                 </div>
                             </div>
                         </div>
@@ -797,12 +743,11 @@
             <div class="container">
                 <div class="project-one__bottom-inner">
                     <div class="project-one__bottom-left">
-                        <h2 class="project-one__bottom-title"> We’re the team you need
-                            to get things done.</h2>
+                        <h2 class="project-one__bottom-title">Somos el equipo que necesitas para hacer las cosas.
+                        </h2>
                     </div>
                     <div class="project-one__bottom-btn-box">
-                        <a href="/project-01.html" class="thm-btn project-one__bottom-btn">View All
-                            Project</a>
+                        <a href="/project-01.html" class="thm-btn project-one__bottom-btn">Ver proyectos</a>
                     </div>
                 </div>
             </div>
@@ -813,8 +758,8 @@
     <section class="team-one">
         <div class="container">
             <div class="section-title text-center">
-                <span class="section-title__tagline">Team Member</span>
-                <h2 class="section-title__title">Meet the Professionals</h2>
+                <span class="section-title__tagline">Miembro del Equipo</span>
+                <h2 class="section-title__title">Conozca a los profesionales</h2>
             </div>
             <div class="row">
                 <!--Team One Single Start-->
@@ -823,7 +768,7 @@
                         <div class="team-one__img">
                             <img src="/assets/images/team/team-1-1.jpg" alt="">
                             <div class="team-one__content">
-                                <p class="team-one__sub-title">Furniture Designing</p>
+                                <p class="team-one__sub-title">Diseño de mueblesing</p>
                                 <h3 class="team-one__title"><a href="/team.html">Adam Smite</a></h3>
                             </div>
                         </div>
@@ -869,7 +814,7 @@
                         <h3 class="odometer" data-count="30">00</h3>
                         <span class="counter-one__plus">+</span>
                     </div>
-                    <p class="counter-one__text">Years of experience</p>
+                    <p class="counter-one__text">Años de experiencia</p>
                     <div class="counter-one__icon">
                         <span class="icon-hand-rating-smile"></span>
                     </div>
@@ -878,7 +823,7 @@
                     <div class="counter-one__count-box">
                         <h3 class="odometer" data-count="2145">00</h3>
                     </div>
-                    <p class="counter-one__text">Satisfied clients</p>
+                    <p class="counter-one__text">clientes satisfechos</p>
                     <div class="counter-one__icon">
                         <span class="icon-mail-message"></span>
                     </div>
@@ -887,7 +832,7 @@
                     <div class="counter-one__count-box">
                         <h3 class="odometer" data-count="245">00</h3>
                     </div>
-                    <p class="counter-one__text">Project Completed</p>
+                    <p class="counter-one__text">Proyecto completado</p>
                     <div class="counter-one__icon">
                         <span class="icon-chainsaw"></span>
                     </div>
@@ -896,7 +841,7 @@
                     <div class="counter-one__count-box">
                         <h3 class="odometer" data-count="25">00</h3>
                     </div>
-                    <p class="counter-one__text">Awards Recieved</p>
+                    <p class="counter-one__text">Premios recibidos</p>
                     <div class="counter-one__icon">
                         <span class="icon-award-certificate-education"></span>
                     </div>
@@ -913,7 +858,7 @@
                     <div class="testimonial-one__left">
                         <div class="section-title text-left">
                             <span class="section-title__tagline">Testimonial</span>
-                            <h2 class="section-title__title">Words From Our Customer</h2>
+                            <h2 class="section-title__title">Palabras de nuestro cliente</h2>
                         </div>
                         <p class="testimonial-one__text">Lorem Ipsum available, but the majority have suffered
                             dimply free text Suspe ndisse suscipit sagittis dolore magna aliqua ipsum quia </p>
@@ -1099,10 +1044,10 @@
     <!--Testimonial One End-->
     <!--Blog One Start-->
     <section class="blog-one">
-        <div class="blog-one-bg"
-            style="background-image: url(/assets/images/backgrounds/blog-one-bg.jpg);"></div>
+        <div class="blog-one-bg" style="background-image: url(/assets/images/backgrounds/blog-one-bg.jpg);"></div>
         <div class="container">
-            <div class="blog-one__top">
+            {{--
+            <div class="blog-one__top d-none">
                 <div class="section-title text-center">
                     <span class="section-title__tagline">Our Blog Update</span>
                     <h2 class="section-title__title">Check Latest Blog Post <br> from Blog List</h2>
@@ -1129,8 +1074,7 @@
                                         Calculate How Much
                                         Epoxy For Your Table</a></h3>
                                 <div class="blog-one__arrow">
-                                    <a href="/blog-details.html">Learn More <span
-                                            class="icon-right-arrow-1"></span></a>
+                                    <a href="/blog-details.html">Learn More <span class="icon-right-arrow-1"></span></a>
                                 </div>
                                 <div class="blog-one__tag">
                                     <p>Sideboard</p>
@@ -1160,8 +1104,7 @@
                                         Own Coffee Table
                                         Series Complete</a></h3>
                                 <div class="blog-one__arrow">
-                                    <a href="/blog-details.html">Learn More <span
-                                            class="icon-right-arrow-1"></span></a>
+                                    <a href="/blog-details.html">Learn More <span class="icon-right-arrow-1"></span></a>
                                 </div>
                                 <div class="blog-one__tag">
                                     <p>Sideboard</p>
@@ -1191,8 +1134,7 @@
                                         Floor From Scaffold
                                         Boards furniture making</a></h3>
                                 <div class="blog-one__arrow">
-                                    <a href="/blog-details.html">Learn More <span
-                                            class="icon-right-arrow-1"></span></a>
+                                    <a href="/blog-details.html">Learn More <span class="icon-right-arrow-1"></span></a>
                                 </div>
                                 <div class="blog-one__tag">
                                     <p>Sideboard</p>
@@ -1202,30 +1144,52 @@
                     </div>
                     <!--Blog One Single End-->
                 </div>
-            </div>
+            </div> --}}
             <div class="about-history">
                 <div class="about-history__inner">
                     <div class="about-history__left">
                         <div class="about-history__img-one">
-                            <img src="/assets/images/resources/about-history-img-1.jpg"
-                                alt="">
+                            <img src="/assets/images/resources/about-history-img-1.jpg" alt="">
                             <div class="about-history__two">
-                                <img src="/assets/images/resources/about-history-img-2.jpg"
-                                    alt="">
+                                <img src="/assets/images/resources/about-history-img-2.jpg" alt="">
                             </div>
                         </div>
                         <div class="about-history__content">
-                            <h3 class="about-history__title">We’ve been helping you do just that since 1998</h3>
-                            <p class="about-history__text">We have a commitment to quality and style combining
-                                traditional craftmanship with new technology.</p>
+                            <h3 class="about-history__title">Te hemos estado ayudando a hacer precisamente eso desde 1998
+                            </h3>
+                            <p class="about-history__text">Tenemos un compromiso con la calidad y el estilo que combina la
+                                artesanía tradicional con la nueva tecnología.</p>
                         </div>
                     </div>
                     <div class="about-history__right">
-                        <a href="/about.html" class="thm-btn about-history__btn">About Company</a>
+                        <a href="{{ route('nosotros') }}" class="thm-btn about-history__btn">Acerca de la Compañia</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--Blog One End-->
+
 @endsection
+
+@push('scripts')
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            loop: true,
+            effect: "fade",
+            pagination: {
+                el: "#main-slider-pagination",
+                type: "bullets",
+                clickable: true
+            },
+            navigation: {
+                nextEl: " #main-slider__swiper-button-next",
+                prevEl: "#main-slider__swiper-button-prev"
+            },
+            autoplay: {
+                delay: 5000
+            }
+        });
+    </script>
+@endpush

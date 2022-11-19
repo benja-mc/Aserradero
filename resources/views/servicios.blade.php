@@ -6,11 +6,11 @@
     </div>
     <div class="container">
         <div class="page-header__inner">
-            <h2>Our Services</h2>
+            <h2>Nuestros Servicios</h2>
             <ul class="thm-breadcrumb list-unstyled">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{route('index')}}">Inicio</a></li>
                 <li><span>/</span></li>
-                <li>Our Services</li>
+                <li>Nuestros Servicios</li>
             </ul>
         </div>
     </div>
@@ -19,8 +19,8 @@
     <div class="services-one-bg" style="background-image: url(assets/images/backgrounds/services-one-bg.jpg);"></div>
     <div class="container">
         <div class="section-title text-center">
-            <span class="section-title__tagline">our Services</span>
-            <h2 class="section-title__title">Some Of Our Services</h2>
+            <span class="section-title__tagline">Nuestros Servicios</span>
+            <h2 class="section-title__title">Algunos de nuestros servicios</h2>
         </div>
         <div class="row">
             <!--Services One Single Start-->
@@ -33,10 +33,10 @@
                         <div class="services-one__icon">
                             <span class="icon-table"></span>
                         </div>
-                        <h3 class="services-one__title"><a href="wood-fruniture.html">Wooden Furniture</a></h3>
-                        <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula lorem ipsum</p>
+                        <h3 class="services-one__title"><a href="">Muebles de madera</a></h3>
+                        <p class="services-one__text">El cliente debe estar contento y cómodo y no el cliente.</p>
                         <div class="services-one__arrow">
-                            <a href="wood-fruniture.html"><i class="fas fa-arrow-right"></i></a>
+                            <a href=""><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="services-one__shape-1"></div>
@@ -53,10 +53,10 @@
                         <div class="services-one__icon">
                             <span class="icon-chainsaw"></span>
                         </div>
-                        <h3 class="services-one__title"><a href="services.html">Home Renovation</a></h3>
-                        <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula lorem ipsum</p>
+                        <h3 class="services-one__title"><a href="">Renovación del hogar</a></h3>
+                        <p class="services-one__text">El cliente debe estar contento y cómodo y no el cliente.</p>
                         <div class="services-one__arrow">
-                            <a href="services.html"><i class="fas fa-arrow-right"></i></a>
+                            <a href=""><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="services-one__shape-1"></div>
@@ -73,10 +73,10 @@
                         <div class="services-one__icon">
                             <span class="icon-wood-pile"></span>
                         </div>
-                        <h3 class="services-one__title"><a href="services.html">Hardwook work</a></h3>
-                        <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula lorem ipsum</p>
+                        <h3 class="services-one__title"><a href="">Trabajo de madera dura</a></h3>
+                        <p class="services-one__text">El cliente debe estar contento y cómodo y no el cliente.</p>
                         <div class="services-one__arrow">
-                            <a href="services.html"><i class="fas fa-arrow-right"></i></a>
+                            <a href=""><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="services-one__shape-1"></div>
@@ -93,10 +93,10 @@
                         <div class="services-one__icon">
                             <span class="icon-table"></span>
                         </div>
-                        <h3 class="services-one__title"><a href="wood-fruniture.html">Wooden Furniture</a></h3>
-                        <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula lorem ipsum</p>
+                        <h3 class="services-one__title"><a href="">Muebles de madera</a></h3>
+                        <p class="services-one__text">El cliente debe estar contento y cómodo y no el cliente.</p>
                         <div class="services-one__arrow">
-                            <a href="wood-fruniture.html"><i class="fas fa-arrow-right"></i></a>
+                            <a href=""><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="services-one__shape-1"></div>
@@ -113,10 +113,10 @@
                         <div class="services-one__icon">
                             <span class="icon-restaurant-kitchen"></span>
                         </div>
-                        <h3 class="services-one__title"><a href="kitchen-modeling.html">Kitchen Modeling</a></h3>
-                        <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula lorem ipsum</p>
+                        <h3 class="services-one__title"><a href="">Modelado de cocina</a></h3>
+                        <p class="services-one__text">El cliente debe estar contento y cómodo y no el cliente.</p>
                         <div class="services-one__arrow">
-                            <a href="kitchen-modeling.html"><i class="fas fa-arrow-right"></i></a>
+                            <a href=""><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="services-one__shape-1"></div>
@@ -133,10 +133,10 @@
                         <div class="services-one__icon">
                             <span class="icon-outdoor-table-wood"></span>
                         </div>
-                        <h3 class="services-one__title"><a href="outdoor-designing.html">Outdoor Designing</a></h3>
-                        <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula lorem ipsum</p>
+                        <h3 class="services-one__title"><a href="">Diseño al aire libre</a></h3>
+                        <p class="services-one__text">El cliente debe estar contento y cómodo y no el cliente.</p>
                         <div class="services-one__arrow">
-                            <a href="outdoor-designing.html"><i class="fas fa-arrow-right"></i></a>
+                            <a href=""><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="services-one__shape-1"></div>
@@ -153,10 +153,10 @@
                         <div class="services-one__icon">
                             <span class="icon-window"></span>
                         </div>
-                        <h3 class="services-one__title"><a href="outdoor-designing.html">Doors &amp; Windows</a></h3>
-                        <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula lorem ipsum</p>
+                        <h3 class="services-one__title"><a href="">Puertas y Ventanas</a></h3>
+                        <p class="services-one__text">El cliente debe estar contento y cómodo y no el cliente.</p>
                         <div class="services-one__arrow">
-                            <a href="outdoor-designing.html"><i class="fas fa-arrow-right"></i></a>
+                            <a href=""><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="services-one__shape-1"></div>
@@ -173,10 +173,10 @@
                         <div class="services-one__icon">
                             <span class="icon-roof"></span>
                         </div>
-                        <h3 class="services-one__title"><a href="celling-roofing.html">Celing &amp; Roofing</a></h3>
-                        <p class="services-one__text">Lorem ipsum dolor sit ameet aenean commodo nec ligula lorem ipsum</p>
+                        <h3 class="services-one__title"><a href="">Techos y techos</a></h3>
+                        <p class="services-one__text">El cliente debe estar contento y cómodo y no el cliente.</p>
                         <div class="services-one__arrow">
-                            <a href="celling-roofing.html"><i class="fas fa-arrow-right"></i></a>
+                            <a href=""><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="services-one__shape-1"></div>

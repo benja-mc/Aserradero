@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\ClienteController;
+use App\Http\Controllers\MaderaController;
+use App\Http\Controllers\ProductoController;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,6 +41,25 @@ Route::get("/proyectos", function () {
     return view("proyectos");
 })->name("proyectos");
 
-Route::get("/panel", function () {
-    return view("dashboard.index");
-})->name("dashboard");
+
+
+Route::group(["prefix" => "panel"], function () {
+
+    Route::get("/login", function () {
+        return view("dashboard.login");
+    })->name("login");
+
+    Route::group(["middleware" => "auth"], function () {
+        Route::get("/", function () {
+            return view("dashboard.index");
+        })->name("dashboard");
+
+        Route::get("/users", function () {
+            return view("dashboard.users")->with("users", User::all());
+        })->name("dashboard.users");
+
+        Route::resource('/madera', MaderaController::class);
+        Route::resource('/producto', ProductoController::class);
+        Route::resource('/cliente', ClienteController::class);
+    });
+});

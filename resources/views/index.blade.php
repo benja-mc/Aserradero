@@ -465,33 +465,9 @@
                 </div>
             </div>
         </div>
-        </div>
+
         <div class="project-one__top">
-            <div class="owl-carousel owl-theme thm-owl__carousel project-one__carousel"
-                data-owl-options='{
-            "loop": true,
-            "autoplay": false,
-            "margin": 0,
-            "nav": false,
-            "dots": true,
-            "smartSpeed": 500,
-            "autoplayTimeout": 10000,
-            "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-            "responsive": {
-                "0": {
-                    "items": 1
-                },
-                "768": {
-                    "items": 2
-                },
-                "992": {
-                    "items": 2
-                },
-                "1200": {
-                    "items": 4
-                }
-            }
-        }'>
+            <div class="owl-carousel owl-theme thm-owl__carousel project-one__carousel">
                 <!--Project One Single Start-->
                 <div class="item">
                     <div class="project-one__single">
@@ -866,31 +842,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="testimonial-one__right">
-                        <div class="testimonial-one__carousel owl-carousel owl-theme thm-owl__carousel"
-                            data-owl-options='{
-                        "loop": true,
-                        "autoplay": true,
-                        "margin": 30,
-                        "nav": true,
-                        "dots": false,
-                        "smartSpeed": 500,
-                        "autoplayTimeout": 10000,
-                        "navText": ["<span class=\"icon-left-arrow-4\"></span>","<span class=\"icon-right-arrow-4\"></span>"],
-                        "responsive": {
-                            "0": {
-                                "items": 1
-                            },
-                            "768": {
-                                "items": 2
-                            },
-                            "992": {
-                                "items": 2
-                            },
-                            "1200": {
-                                "items": 2
-                            }
-                        }
-                    }'>
+                        <div class="testimonial-one__carousel owl-carousel owl-theme thm-owl__carousel">
                             <!--Testimonial One Single Start-->
                             <div class="item">
                                 <div class="testimonial-one__single">
@@ -1191,5 +1143,59 @@
                 delay: 5000
             }
         });
+
+        $('.project-one__carousel').owlCarousel({
+
+            loop: true,
+            autoplay: false,
+            margin: 0,
+            nav: false,
+            dots: true,
+            smartSpeed: 500,
+            autoplayTimeout: 10000,
+            navText: ["<span class=\"fa fa-angle-left\"></span>", "<span class=\"fa fa-angle-right\"></span>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                992: {
+                    items: 2
+                },
+                1200: {
+                    items: 4
+                }
+            }
+
+        });
+
+        $(".testimonial-one__carousel").owlCarousel({
+            loop: true,
+            autoplay: true,
+            margin: 30,
+            nav: true,
+            dots: false,
+            smartSpeed: 500,
+            autoplayTimeout: 10000,
+            navText: ["<span class=\"icon-left-arrow-4\"></span>",
+                "<span class=\"icon-right-arrow-4\"></span>"
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                992: {
+                    items: 2
+                },
+                1200: {
+                    items: 2
+                }
+            }
+        })
     </script>
 @endpush

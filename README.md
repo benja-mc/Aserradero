@@ -11,3 +11,21 @@
 
 Esto es un proyecto de Aserradero desarrollado con Laravel
 
+## Instalacion
+
+Para instalar requiere ejecutar el siguiente comando
+> composer install
+
+configurar la base de datos
+
+Luego migrar las tablas
+
+> php artisan migrate
+
+finalmente ejecutar el servidor
+
+> php artisan serve
+
+Home: http://127.0.0.1:8000/
+
+Panel: http://127.0.0.1:8000/panel
